@@ -2,9 +2,14 @@
 .test{
   background: green;
 
+  test{
+    color: red;font-size: 2em;display: block
+  }
+
   h1{
     color: white;display: block;
   }
-  .test1{font-size: red;}  //这行无效。。。无语
+
+  .test1{color: red;}  //这行无效,放在global里面才有用。。无语
 }
 

@@ -1,16 +1,18 @@
 {
     "private": true,
     "scripts": {
-      "dev": "node server.js",
-      "build": "next build",
-      "start": "cross-env NODE_ENV=production node server.js"
+        "dev": "node server.js",
+        "build": "next build",
+        "start": "cross-env NODE_ENV=production node server.js"
     },
     "dependencies": {
-      "@hapi/hapi": "^21.3.2",
-      "cross-env": "^7.0.3",
-      "next": "latest",
-      "react": "^18.2.0",
-      "react-dom": "^18.2.0"
+        "@hapi/hapi": "^21.3.2",
+        "cross-env": "^7.0.3",
+        "next": "latest",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "sass": "^1.69.5"
     }
-  }
-  
+}

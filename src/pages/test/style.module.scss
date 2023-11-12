@@ -1,0 +1,10 @@
+//不支持内嵌样式，支持内嵌标签~~~无语
+.test{
+  background: green;
+
+  h1{
+    color: white;display: block;
+  }
+  .test1{font-size: red;}  //这行无效。。。无语
+}
+
